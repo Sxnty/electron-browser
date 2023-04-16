@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import "./styles/index.scss";
+import Bar from "./components/Bar";
 
 function App() {
   return (
     <>
-<webview src="https://www.google.com" style={{width: "100%", height: "100vh"}}></webview>
-
+      <Bar />
+      <webview src="https://www.google.com" className="webview"></webview>
     </>
   );
 }

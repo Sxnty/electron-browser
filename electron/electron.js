@@ -3,6 +3,7 @@ const { screen } = require("electron");
 const path = require("path");
 const isDev = require("electron-is-dev");
 
+
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 
